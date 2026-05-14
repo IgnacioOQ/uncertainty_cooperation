@@ -1,0 +1,15 @@
+# Pinned environment for the tabular notebooks (strands 1, 2, 3, and
+# the regression sandbox cells in strand 4 that don't need torch).
+#
+# Captured on: macOS x86_64 (Intel), Python 3.10.9 (Anaconda base).
+# Heavy DL notebooks under 04_deep_ensembles/ have historically been
+# run on Google Colab; install requirements-deep.txt to run them locally.
+
+numpy==1.23.5
+matplotlib==3.9.2
+seaborn==0.12.2
+tqdm==4.66.5
+ipykernel==6.19.2
+jupyter==1.0.0
+jupyterlab==3.5.3
+notebook==6.5.4

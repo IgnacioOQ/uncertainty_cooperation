@@ -1,0 +1,9 @@
+# Extra dependencies for the deep-ensemble notebooks under
+# 04_deep_ensembles/ and 03_sequential_games_ucb/polluted_river_public_goods.ipynb.
+#
+# Not pinned: pip will fetch the right wheel for your platform (CPU on
+# macOS, CUDA on Linux when available). If you need a specific CUDA build,
+# see https://pytorch.org/get-started/locally/.
+
+-r requirements.txt
+torch>=2.0
